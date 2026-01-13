@@ -1,33 +1,19 @@
-# React + Vite + Hono + Cloudflare Workers
+# Hono Image Gen
 
-[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/vite-react-template)
+An experiment building an AI image generation app using [Hono](https://hono.dev/) and [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/).
 
-This template provides a minimal setup for building a React application with TypeScript and Vite, designed to run on Cloudflare Workers. It features hot module replacement, ESLint integration, and the flexibility of Workers deployments.
+This project demonstrates how to build a full-stack image generation application that runs entirely on Cloudflare's edge network, leveraging:
+- **Hono** - A fast, lightweight web framework for building APIs
+- **Cloudflare Workers AI** - Serverless AI inference at the edge
+- **React + Vite** - Modern frontend with hot module replacement
 
-![React + TypeScript + Vite + Cloudflare Workers](https://imagedelivery.net/wSMYJvS3Xw-n339CbDyDIA/fc7b4b62-442b-4769-641b-ad4422d74300/public)
+## Features
 
-<!-- dash-content-start -->
-
-🚀 Supercharge your web development with this powerful stack:
-
-- [**React**](https://react.dev/) - A modern UI library for building interactive interfaces
-- [**Vite**](https://vite.dev/) - Lightning-fast build tooling and development server
-- [**Hono**](https://hono.dev/) - Ultralight, modern backend framework
-- [**Cloudflare Workers**](https://developers.cloudflare.com/workers/) - Edge computing platform for global deployment
-
-### ✨ Key Features
-
-- 🔥 Hot Module Replacement (HMR) for rapid development
-- 📦 TypeScript support out of the box
-- 🛠️ ESLint configuration included
-- ⚡ Zero-config deployment to Cloudflare's global network
-- 🎯 API routes with Hono's elegant routing
-- 🔄 Full-stack development setup
-- 🔎 Built-in Observability to monitor your Worker
-
-Get started in minutes with local development or deploy directly via the Cloudflare dashboard. Perfect for building modern, performant web applications at the edge.
-
-<!-- dash-content-end -->
+- 🎨 AI-powered image generation using Cloudflare Workers AI
+- ⚡ Edge-deployed backend for low latency worldwide
+- 🎛️ Advanced options including negative prompts, dimensions, guidance, and seed control
+- 🔥 Hot Module Replacement for rapid development
+- 📦 TypeScript throughout
 
 ## Getting Started
 
